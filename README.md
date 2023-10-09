@@ -33,3 +33,13 @@ para incluirlos en el historial del proyecto. Este comando realiza las siguiente
 `git commit` guarda la instantánea del historial del proyecto y completa el proceso de seguimiento de los cambios.
 En resumen, una confirmación funciona tal como el tomar una fotografía. Todo lo que se haya almacenado 
 provisionalmente con `git add` pasara a formar parte de la instantanea con `git commit`.
+
+`git status` muestra el estado de los cambios como sin seguimiento, modificados o almacenados provisionalmente.
+
+`git branch` muestra las ramas en las que se trabaja localmente.
+
+`git merge `combina las líneas de desarrollo. Este comando habitualmente se utiliza para combinar los cambios que se realizan en dos ramas distintas. Por ejemplo, un desarrollador podría hacer una fusión cuando necesite combinar los cambios de una rama de característica en la rama de desarrollo principal.
+
+`git pull` actualiza la línea de desarrollo local con actualizaciones de sus contrapartes remotas. Los desarrolladores utilizan este comando si un compañero de equipo hizo confirmaciones en una rama en un repositorio remoto y quieren reflejarlos en su ambiente local.
+
+`git push` actualiza el repositorio remoto con las confirmaciones realizadas localmente en una rama.
